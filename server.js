@@ -32,6 +32,6 @@ app.use('/api/status', require('./router/status.route'));
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-app.listen(4000, console.log('Server runnning at port 4000'));
+app.listen(process.env.PORT || 4000, console.log('Server runnning at port 4000'));
 
 
