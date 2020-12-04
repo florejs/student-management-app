@@ -7,7 +7,7 @@ import axios from 'axios'
 import * as actions from 'actions'
 
 const Login = ({dispatch, location}) => {
-  const [email, setEmail] = useState('new@gmail.com')
+  const [email, setEmail] = useState('contact@ecomwarrioracademy.com')
   const [password, setPassword] = useState('password')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(false)
