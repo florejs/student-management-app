@@ -1,0 +1,1 @@
+export default ['USD', 'AUD', 'CAD', 'EUR', 'GBP', 'CHF', 'NZD', 'JPY']
